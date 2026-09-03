@@ -25,7 +25,7 @@
 - no contested/redesign signals in docs area.
 
 ## Gap ledger (dedupe — READ FIRST, never re-pick)
-- `2026-09-03` self-found trivial cleanup (typos, broken markdown link, stale `blob/master` refs, stale `black` comment, `Github`→`GitHub`) — outcome: pr-opened — lesson: pack related trivial fixes into one PR.
+- `2026-09-03` self-found trivial cleanup (typos, broken markdown link, stale `blob/master` refs, stale `black` comment, `Github`→`GitHub`) — outcome: pr-opened (PR #4) — lesson: pack related trivial fixes into one PR.
 
 ## Mined gaps (discovered, not yet attempted)
 - `2026-09-03` `bin/check-and-renew` uses unset `$wait` instead of `$wait_for_app` (line ~142) — status: proposed (code bug, out of trivial-doc scope; revisit for a code-fix PR).
