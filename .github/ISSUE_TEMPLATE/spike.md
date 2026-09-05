@@ -13,7 +13,7 @@ We want to [goal], but we're not sure how to do that.
 
 Given above [question/risk/uncertainty], conducting [research/design/investigation/prototyping] is needed to provide factual knowledge on future steps.
 
-[timebox] of effort has been allocated and once compete, findings will be demonstrated and specific future actions will be decided.
+[timebox] of effort has been allocated and once complete, findings will be demonstrated and specific future actions will be decided.
 
 ### Acceptance Criteria
 
