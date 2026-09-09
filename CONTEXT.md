@@ -26,7 +26,7 @@
 
 ## Gap ledger (dedupe — READ FIRST, never re-pick)
 - `2026-09-03` self-found trivial cleanup (typos, broken markdown link, stale `blob/master` refs, stale `black` comment, `Github`→`GitHub`) — outcome: pr-opened (PR #4) — lesson: pack related trivial fixes into one PR.
-- `2026-09-09` self-found code bug `bin/check-and-renew` line 55 uses unset `$wait` instead of re-passing the deploy/space/`--wait` args on recursive re-check — outcome: pr-opened (PR to add) — lesson: verified live; recursion dropped action/space/wait context.
+- `2026-09-09` self-found code bug `bin/check-and-renew` line 55 uses unset `$wait` instead of re-passing the deploy/space/`--wait` args on recursive re-check — outcome: pr-opened (PR #7, base olitreadwell/data.gov main) — lesson: verified live; recursion dropped action/space/wait context.
 
 ## Mined gaps (discovered, not yet attempted)
 - `2026-09-03` `bin/check-and-renew` uses unset `$wait` instead of `$wait_for_app` (line ~142) — status: attempted 2026-09-09 (correct fix = pass `"$action" "$space" --wait` on recursion, not `$wait_for_app` which equals `true` and would never match the `deploy|restart|scale` validator).
