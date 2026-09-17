@@ -23,7 +23,7 @@ You are responsible for all [O&M responsibilities](https://github.com/gsa/data.g
 - [ ] [Review and triage O&M tickets due this month](https://github.com/orgs/GSA/projects/11/views/31)
 - [ ] Check [Harvesting Emails](https://github.com/gsa/data.gov/wiki/Operation-and-Maintenance-Responsibilities#harvest-job-report-daily-email-report)
 - [ ] [New Relic Alerts](https://alerts.newrelic.com/accounts/1601367/incidents) Triaged
-- [ ] Check each github repo's Security tab to traige issues found by Dependabot and Code scan
+- [ ] Check each GitHub repo's Security tab to triage issues found by Dependabot and Code scan
 
 ## Weekly Checklist
 - [ ] [Audit Log](https://docs.google.com/spreadsheets/d/1z6lqmyNxC7s5MiTt9f6vT41IS2DLLJl4HwEqXvvft40/edit) (more info on [AU-3 and AU-6 Log auditing](https://github.com/gsa/data.gov/wiki/Operation-and-Maintenance-Responsibilities#au-3-and-au-6-log-auditing))

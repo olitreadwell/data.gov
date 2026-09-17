@@ -2,7 +2,7 @@
 SHELL := /bin/bash
 
 .PHONY: py-lint
-py-lint: ## Run python linting scanners and black
+py-lint: ## Run python linting scanners
 	poetry run ruff check . --fix
 
 # Output documentation for top-level targets

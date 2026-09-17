@@ -57,7 +57,7 @@
 | datagov-catalog                           | development, staging, prod                       | catalog.data.gov                      | https://github.com/GSA/datagov-catalog/blob/main/manifest.yml @ `((app_name))`
 | inventory                             | development, staging, prod                       | inventory.data.gov                    | https://github.com/GSA/inventory-app/blob/main/manifest.yml @ `inventory`
 | inventory-proxy                       | development, staging, prod                       | inventory.data.gov                    | ⬆️ @ `inventory-proxy`
-| egress-proxy-gsa-datagov-prod         | prod-egress                                      | Egress Proxy (dashboard.data.gov)     | https://github.com/GSA/data.gov/blob/master/.github/workflows/enable-egress.yml
+| egress-proxy-gsa-datagov-prod         | prod-egress                                      | Egress Proxy (dashboard.data.gov)     | https://github.com/GSA/data.gov/blob/main/.github/workflows/enable-egress.yml
 
 ### Apps to be deprecated
 
@@ -73,7 +73,7 @@
 | backup-manager-s3         | development, staging, prod                       | Backup-manager                           | Manual (See cloud.gov [S3 Docs](https://cloud.gov/docs/services/s3/))
 | logstack-s3               | management, management-staging, development-ssb  | Logstack                                 | https://github.com/GSA/datagov-logstack/blob/main/create-cloudgov-services.sh
 | logstack-secrets          | management, management-staging, development-ssb  | Logstack                                 | ⬆️
-| ci-deployer               | ALL SPACES                                       | \*\*Github Actions                       | Manual (See cloud.gov [Space Deployer Docs](https://cloud.gov/docs/services/cloud-gov-service-account/))
+| ci-deployer               | ALL SPACES                                       | \*\*GitHub Actions                       | Manual (See cloud.gov [Space Deployer Docs](https://cloud.gov/docs/services/cloud-gov-service-account/))
 | static-site-images        | prod                                             | New Static Site                          | Manual (See cloud.gov [S3 Docs](https://cloud.gov/docs/services/s3/))
 | sysadmin-users            | development, staging, prod                       | catalog.data.gov, inventory.data.gov     | Manual (See cloudfoundry [User-Provided Service Docs](https://docs.cloudfoundry.org/devguide/services/user-provided.html#overview))
 | datagov-catalog-db                | development, staging, prod                       | catalog.data.gov                         | https://github.com/GSA/datagov-catalog/blob/main/create-cloudgov-services.sh

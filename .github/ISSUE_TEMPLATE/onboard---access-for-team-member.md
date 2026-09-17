@@ -12,7 +12,7 @@ Welcome! [The Onboarding wiki](https://github.com/gsa/data.gov/wiki/Onboarding-O
 ### Self-Service New Employee Tasks
 - [ ] Log into [Login.gov dashboard](https://secure.login.gov/) or create account with GSA email address,   Once an account is created, click "Add Your Government Employee ID" in the left hand nav, and add your PIV card to the account (if you were issued one).  Test logging into [Login.gov Sandbox](https://dashboard.int.identitysandbox.gov/)
 - [ ] Ensure your GitHub account meets the criteria for [GSA GitHub org](https://github.com/GSA/GitHub-Administration/blob/master/README.md) (setup 2FA)
-- [ ] Configure your Github profile to [sign commits] Follow Github's instructions for generating a GPG key [here](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key).  Or use the SSH key you already [have](https://calebhearth.com/sign-git-with-ssh). More [here]((https://github.com/GSA/data.gov/issues/4768#issuecomment-2471611946)).
+- [ ] Configure your GitHub profile to [sign commits] Follow GitHub's instructions for generating a GPG key [here](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key).  Or use the SSH key you already [have](https://calebhearth.com/sign-git-with-ssh). More [here](https://github.com/GSA/data.gov/issues/4768#issuecomment-2471611946).
 - [ ] Read through the [required reading list](https://github.com/gsa/data.gov/wiki/Onboarding-Offboarding#required-reading-list)
   - [ ] Once you have access to cloud.gov, run through [training](https://github.com/gsa/data.gov/wiki/cloud.gov#onboarding-training)
 
@@ -27,7 +27,7 @@ Welcome! [The Onboarding wiki](https://github.com/gsa/data.gov/wiki/Onboarding-O
 - [ ] Review this ticket and modify it as necessary
 - [ ] Make sure team member has 2FA enabled for their GitHub account and [request](https://github.com/GSA/GitHub-Administration/blob/master/README.md#requesting-access-to-the-gsa-organization) membership to GSA GitHub org
 - [ ] Add all team members to the Data.gov GitHub development team [data-gov-dev-team](https://github.com/orgs/GSA/teams/data-gov-dev-team), and change their role to Maintainer if they are part of the PMO team. For non-development roles that aren't PMO, add them to [data-gov-team](https://github.com/orgs/GSA/teams/data-gov-team)
-- [ ] Add **Government** team members to the Github PMO team [data-gov-admins](https://github.com/orgs/GSA/teams/data-gov-admin/members) and set their role as Maintainer.
+- [ ] Add **Government** team members to the GitHub PMO team [data-gov-admins](https://github.com/orgs/GSA/teams/data-gov-admin/members) and set their role as Maintainer.
 
 **Slack**
 - [ ] Add ALL team members to Slack Channels such as #datagov-____ (unlocked); #dev; #admins-github; #g-content; #cloud-engineering; #login-partner-support
