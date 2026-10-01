@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-<!-- description of the issue, please including any relevant information:
+<!-- description of the issue, please include any relevant information:
   - version
   - environment
   - component

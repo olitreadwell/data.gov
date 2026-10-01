@@ -68,7 +68,7 @@ function set_scale_number {
     export scale_to=$((total_instances + SCALE_STEP))
     echo "Scaling up to $scale_to"
   elif [ "$scale_direction" == "down" ] && [ "$total_instances" -gt "$MIN_INSTANCES" ]; then
-    # export the scale_to value but make sure scale_to is large than 1
+    # export the scale_to value but make sure scale_to is larger than 1
     export scale_to=$((total_instances - SCALE_STEP < 1 ? 1 : total_instances - SCALE_STEP))
     echo "Scaling down to $scale_to"
   else
