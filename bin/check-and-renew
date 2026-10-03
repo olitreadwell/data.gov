@@ -82,14 +82,14 @@ function check_running_job {
 
       # First we check if any instance CPU is busy
       instances=$(cf app "$app_to_check" | grep '^instances:' | sed 's/.*\///')
-      cf app "$app_to_check" | tail -n "$instances" | awk '{ split($4,cpu,"."); print cpu[1]}' | while read -r cpu ; do
+      while read -r cpu ; do
         if [[ $cpu -gt 1 ]]; then
           echo "CPU is busy! Not going to restart"
           ok_to_proceed="NO"
         else
           echo "CPU showing no harvesting activity for this instance."
         fi
-      done;
+      done < <(cf app "$app_to_check" | tail -n "$instances" | awk '{ split($4,cpu,"."); print cpu[1]}');
 
       # Check the age of the last log
       # If there are only two lines, there are no logs
