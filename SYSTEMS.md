@@ -40,7 +40,7 @@
 | Python Buildpack | https://github.com/cloudfoundry/python-buildpack |
 | NGINX Buildpack | https://github.com/cloudfoundry/nginx-buildpack |
 | Cloudfoundry CLI | https://github.com/cloudfoundry/cli |
-| Cloud.gov Github Actions CLI | https://github.com/cloud-gov/cg-cli-tools |
+| Cloud.gov GitHub Actions CLI | https://github.com/cloud-gov/cg-cli-tools |
 
 
 ## Applications + Services

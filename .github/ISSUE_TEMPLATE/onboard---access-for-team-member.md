@@ -42,7 +42,7 @@ Welcome! [The Onboarding wiki](https://github.com/gsa/data.gov/wiki/Onboarding-O
 
 **Cloud.gov**
 - [ ] [Invite user](https://account.fr.cloud.gov/invite) to Cloud.gov platform and add team member to the [gsa-datagov organization](https://dashboard.fr.cloud.gov/cloud-foundry/2oBn9LBurIXUNpfmtZCQTCHnxUM/organizations/90047c5d-337f-4802-bd48-2149a4265040/users/manage?setByUsername=true) and give them access to the following roles:  Organization: gsa-datagov -- User; All spaces - Developer
-- [ ] Invite team member to Cloud.gov Pages [organization] (https://cloud.gov/pages/documentation/adding-users/#adding-a-new-user)
+- [ ] Invite team member to Cloud.gov Pages [organization](https://cloud.gov/pages/documentation/adding-users/#adding-a-new-user)
 - [ ] Add **Government** team members with OrgManager permissions in [the `gsa-datagov` organization](https://dashboard.fr.cloud.gov/cloud-foundry/2oBn9LBurIXUNpfmtZCQTCHnxUM/organizations/90047c5d-337f-4802-bd48-2149a4265040/users) on cloud.gov
 
 ### Needs Special Review due to limited licenses or limited need
