@@ -28,7 +28,7 @@ on: # yamllint disable-line rule:truthy
           - staging
           - prod
 
-# jobs need to be triplicated due to git hub config being in environment
+# jobs need to be triplicated due to GitHub config being in environment
 # for each cf space
 # TODO ticket to fix this: https://github.com/GSA/data.gov/issues/3996
 permissions:

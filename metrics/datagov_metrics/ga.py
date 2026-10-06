@@ -100,7 +100,7 @@ def setup_organization_reports():
             "orderBys": [{"metric": {"metricName": "eventCount"}, "desc": True}],
         }
 
-        # report most clicked outboud links per organization
+        # report most clicked outbound links per organization
         org_reports[f"{org_name}__link_requests__last30"] = {
             "dateRanges": date_range_last_month(),
             "dimensions": [

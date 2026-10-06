@@ -33,5 +33,5 @@ jobs:
       - name: Woke scan
         uses: get-woke/woke-action@v0
         with:
-          # Cause the check to fail on any broke rules
+          # Cause the check to fail on any broken rules
           fail-on-error: false
