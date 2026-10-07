@@ -1,0 +1,32 @@
+---
+name: Metrics Tests
+
+on: # yamllint disable-line rule:truthy
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  PY_VERSION: "3.10"
+
+jobs:
+  unit-tests:
+    name: Run metrics unit tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: metrics
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+      - name: Set up Python ${{ env.PY_VERSION }}
+        uses: actions/setup-python@v7
+        with:
+          python-version: ${{ env.PY_VERSION }}
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
