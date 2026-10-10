@@ -13,7 +13,7 @@
 | www.data.gov | https://github.com/GSA/datagov-11ty | 
 | resources.data.gov | https://github.com/GSA/resources.data.gov | Static site on cloud.gov Pages |
 | strategy.data.gov | https://github.com/GSA/data-strategy | Static site on cloud.gov Pages |
-| Egress Proxy | https://github.com/GSA/cg-egress-proxy | |
+| Egress Proxy | https://github.com/GSA-TTS/cg-egress-proxy | |
 | CKAN User Management | https://github.com/GSA/datagov-account-management | Repo used to help manage account add/update/delete requests for Inventory |
 | Logstack | https://github.com/GSA/datagov-logstack | Used to track and send all application logs to various locations |
 | Backup-manager | https://github.com/GSA/cf-backup-manager | Application that tracks and maintains backups for database systems for possible restoration point |
@@ -35,11 +35,11 @@
 | ckanext-pgsearch | https://github.com/GSA/ckanext-pgsearch |
 | ckanext-saml2auth | https://github.com/keitaroinc/ckanext-saml2auth |
 | ckanext-xloader | https://github.com/ckan/ckanext-xloader |
-| ckanext-envvars | https://github.com/okfn/ckanext-envvars |
+| ckanext-envvars | https://github.com/ckan/ckanext-envvars |
 | ckanext-s3filestore | https://github.com/keitaroinc/ckanext-s3filestore |
 | Python Buildpack | https://github.com/cloudfoundry/python-buildpack |
 | NGINX Buildpack | https://github.com/cloudfoundry/nginx-buildpack |
-| Cloudfoundry CLI | https://github.com/cloudfoundry/cli |
+| Cloud Foundry CLI | https://github.com/cloudfoundry/cli |
 | Cloud.gov Github Actions CLI | https://github.com/cloud-gov/cg-cli-tools |
 
 
@@ -75,7 +75,7 @@
 | logstack-secrets          | management, management-staging, development-ssb  | Logstack                                 | ⬆️
 | ci-deployer               | ALL SPACES                                       | \*\*Github Actions                       | Manual (See cloud.gov [Space Deployer Docs](https://cloud.gov/docs/services/cloud-gov-service-account/))
 | static-site-images        | prod                                             | New Static Site                          | Manual (See cloud.gov [S3 Docs](https://cloud.gov/docs/services/s3/))
-| sysadmin-users            | development, staging, prod                       | catalog.data.gov, inventory.data.gov     | Manual (See cloudfoundry [User-Provided Service Docs](https://docs.cloudfoundry.org/devguide/services/user-provided.html#overview))
+| sysadmin-users            | development, staging, prod                       | catalog.data.gov, inventory.data.gov     | Manual (See Cloud Foundry [User-Provided Service Docs](https://docs.cloudfoundry.org/devguide/services/user-provided.html#overview))
 | datagov-catalog-db                | development, staging, prod                       | catalog.data.gov                         | https://github.com/GSA/datagov-catalog/blob/main/create-cloudgov-services.sh
 | datagov-catalog-opensearch                | development, staging, prod                       | catalog.data.gov                         | https://github.com/GSA/datagov-catalog/blob/main/create-cloudgov-services.sh
 | datagov-catalog-secrets           | development, staging, prod                       | catalog.data.gov                         | ⬆️
