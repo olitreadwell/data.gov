@@ -22,7 +22,7 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          args: "--base=${{inputs.site_url}} ."
+          args: "--base-url=${{inputs.site_url}} ."
           fail: false
       - name: Create Issue From File
         if: steps.lychee.outputs.exit_code != 0
