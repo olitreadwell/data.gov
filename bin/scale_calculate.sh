@@ -28,6 +28,14 @@ function set_scale_direction {
     done <<< "$running_lines"
   fi
 
+  # A crashed or down app has no running instance to measure. Skip the
+  # average instead of dividing by zero, and leave the scale unchanged.
+  if [ "$count" -eq 0 ]; then
+    echo "No running instances found. Cannot calculate average CPU."
+    scale_direction="same"
+    return
+  fi
+
   # Calculate average CPU usage
   average_cpu=$(echo "scale=2; $cpu_sum / $count" | bc)
 
