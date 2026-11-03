@@ -9,16 +9,8 @@ on: # yamllint disable-line rule:truthy
         required: true
         type: choice
         options:
-          - "catalog-web"
-          - "catalog-admin"
-          - "catalog-fetch"
-          - "catalog-gather"
-          - "catalog-next-web"
-          - "catalog-next-admin"
           - "datagov-harvest"
-          - dashboard
-          - "dashboard-stage"
-          - inventory
+          - "datagov-harvest-validator"
       appSpace:
         description: "Cloud Foundry Space"
         required: true
@@ -54,7 +46,7 @@ jobs:
           path: ${{ env.CG_DIR }}
 
       # trying to emulate:
-      # https://github.com/GSA/cg-egress-proxy/blob/main/Dockerfile
+      # https://github.com/GSA-TTS/cg-egress-proxy/blob/main/Dockerfile
       - name: build caddy - setup go
         uses: actions/setup-go@v7
         with:
